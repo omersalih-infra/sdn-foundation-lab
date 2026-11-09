@@ -131,3 +131,15 @@ The monitor and `iperf3` agree for the long run. An earlier short run using Mini
 - Multi-path topology with load balancing and rerouting on congestion.
 - Anomaly / DDoS detection using the flow statistics collected here.
 - Intent-based control: natural-language policies translated to validated OpenFlow rules.
+
+## Screenshots
+
+**Grafana: port TX rate**
+![Grafana throughput](grafana_throughput.png)
+
+**Firewall flow table with drop-rule hit counters**
+![Firewall flows](dump_flows_firewall.png)
+
+**iperf3 60 s run**
+![iperf3 run](iperf3_60s_run.png)
+![iperf3 summary](iperf3_60s_summary.png)

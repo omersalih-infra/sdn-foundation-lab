@@ -1,4 +1,3 @@
 port_stats.csv
 __pycache__/
 *.pyc
-grafana_throughput.png
